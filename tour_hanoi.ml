@@ -27,7 +27,7 @@ let () =
   Printf.printf "À partir de n=%d, on dépasse 10 secondes\n" seuil 
 
   let () =
-  let n = 3 in (* Vous pouvez ajuster n *)
+  let n = 3 in 
   Printf.printf "Appuyez sur Entrée pour commencer...\n";
   ignore (read_line ());
   stop := false;
