@@ -13,6 +13,7 @@ let hanoi n =
   let fin = Sys.time () in
   Printf.printf "Temps d'exécution pour n=%d : %f secondes\n" n (fin -. debut) 
 
+let n = 5¹
 let rec temps_ecouler n =
   let debut = Sys.time () in 
   hanoi n;  
